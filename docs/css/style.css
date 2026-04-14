@@ -641,3 +641,99 @@ header {
 		font-size: 1.2em;
 	}
 }
+
+/* 追加：固定CTAボタン（全ページ下部） */
+.fixed-cta {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	z-index: 9999;
+	box-shadow: 0 -2px 8px rgba(0,0,0,0.25);
+}
+.fixed-cta .cta-btn {
+	flex: 1;
+	padding: 14px 8px;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 0.95em;
+	line-height: 1.3;
+}
+.fixed-cta .cta-btn i {
+	margin-right: 6px;
+}
+.fixed-cta .cta-reserve {
+	background: #b8860b;
+}
+.fixed-cta .cta-insta {
+	background: linear-gradient(135deg, #f09433, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888);
+}
+.fixed-cta .cta-btn:hover {
+	opacity: 0.92;
+	color: #fff;
+}
+/* CTAに隠れないようにフッター余白を確保 */
+#container {
+	padding-bottom: 64px;
+}
+@media screen and (min-width:801px){
+	.fixed-cta {
+		left: auto;
+		right: 20px;
+		bottom: 20px;
+		flex-direction: column;
+		width: 200px;
+		border-radius: 10px;
+		overflow: hidden;
+	}
+	.fixed-cta .cta-btn {
+		padding: 12px 10px;
+	}
+	#container {
+		padding-bottom: 0;
+	}
+}
+
+/* 追加：カレンダー折りたたみ（details）装飾 */
+#calendar details {
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	background: #fafafa;
+	margin: 0 20px 20px;
+}
+#calendar summary {
+	cursor: pointer;
+	padding: 14px 18px;
+	font-weight: bold;
+	color: #533c28;
+	list-style: none;
+	user-select: none;
+}
+#calendar summary::-webkit-details-marker {
+	display: none;
+}
+#calendar summary::before {
+	content: "▶ ";
+	font-size: 0.8em;
+	margin-right: 6px;
+	transition: transform 0.2s;
+	display: inline-block;
+}
+#calendar details[open] summary::before {
+	content: "▼ ";
+}
+#calendar details iframe {
+	display: block;
+	border: 0;
+	width: 100%;
+	height: 450px;
+	margin-top: 4px;
+}
+@media screen and (max-width:600px){
+	#calendar details iframe {
+		height: 380px;
+	}
+}
