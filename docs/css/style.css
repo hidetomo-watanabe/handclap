@@ -729,11 +729,11 @@ header {
 	display: block;
 	border: 0;
 	width: 100%;
-	height: 450px;
+	height: 700px;
 	margin-top: 4px;
 }
 @media screen and (max-width:600px){
 	#calendar details iframe {
-		height: 380px;
+		height: 560px;
 	}
 }
