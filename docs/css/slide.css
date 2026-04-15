@@ -29,16 +29,6 @@
   75% {opacity: 0;}
   100% {opacity: 0;}
 }
-/*4枚目*/
-@keyframes slide4 {
-  0% {opacity: 0;}
-  60% {opacity: 0;}
-  65% {opacity: 1;}
-  85% {opacity: 1;}
-  95% {opacity: 0;}
-  100% {opacity: 0;}
-}
-
 /*mainimg
 ---------------------------------------------------------------------------*/
 /*画像ブロック*/
@@ -51,8 +41,8 @@
 #mainimg, .slide0, .slide1, .slide2, .slide3, .slide4 {
   border-radius: 10px;  /*角丸のサイズ*/
 }
-/*4枚画像の共通設定*/
-.slide1,.slide2,.slide3,.slide4 {
+/*3枚画像の共通設定*/
+.slide1,.slide2,.slide3 {
   animation-duration: 20s;  /*実行する時間。「s」は秒の事。*/
   animation-iteration-count:infinite;    /*実行する回数。「infinite」は無限に繰り返す意味。*/
   position: absolute;left:0px;top:0px;width: 100%;height: auto;
@@ -75,11 +65,6 @@
 .slide3 {
   animation-name: slide3;    /*上で設定しているキーフレーム（keyframes）の名前*/
 }
-/*4枚目*/
-.slide4 {
-  animation-name: slide4;    /*上で設定しているキーフレーム（keyframes）の名前*/
-}
-
 
 
 /*画面幅520px以下の設定
