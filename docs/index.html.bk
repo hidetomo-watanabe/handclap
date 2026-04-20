@@ -1,32 +1,25 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PQ47BN5G5P"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-PQ47BN5G5P');
-</script>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>HAND-CLAP | 松戸・馬橋の音楽酒場</title>
+<title>HAND-CLAP | セッション未満、飲み以上。</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="HAND-CLAPは松戸市馬橋にある、一人でも来れる音楽酒場。通常営業のほか、ライブ、企画イベント、貸切練習も開催。初心者歓迎、見るだけOK、持ち込みOK。">
+<meta name="description" content="HAND-CLAPは松戸市馬橋にある、一人でも来れる音楽酒場。セッション未満、飲み以上。初心者歓迎、見るだけOK、持ち込みOK。">
 <link rel="shortcut icon" href="images/favicon.ico">
 <link rel="apple-touch-icon" href="images/favicon.ico">
 <link rel="canonical" href="https://handclap.whathides.co.jp/">
 <!-- OGP -->
-<meta property="og:title" content="HAND-CLAP | 松戸・馬橋の音楽酒場">
-<meta property="og:description" content="HAND-CLAPは松戸市馬橋にある、一人でも来れる音楽酒場。通常営業のほか、ライブ、企画イベント、貸切練習も開催。初心者歓迎、見るだけOK、持ち込みOK。">
+<meta property="og:title" content="HAND-CLAP | セッション未満、飲み以上。">
+<meta property="og:description" content="HAND-CLAPは松戸市馬橋にある、一人でも来れる音楽酒場。セッション未満、飲み以上。初心者歓迎、見るだけOK、持ち込みOK。">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://handclap.whathides.co.jp/">
 <meta property="og:image" content="https://handclap.whathides.co.jp/images/bar.jpg">
 <meta property="og:site_name" content="HAND-CLAP">
 <meta property="og:locale" content="ja_JP">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="HAND-CLAP | 松戸・馬橋の音楽酒場">
-<meta name="twitter:description" content="松戸市馬橋にある、一人でも来れる音楽酒場。ライブ、企画イベント、貸切練習も開催。初心者歓迎、見るだけOK、持ち込みOK。">
+<meta name="twitter:title" content="HAND-CLAP | セッション未満、飲み以上。">
+<meta name="twitter:description" content="松戸市馬橋にある、一人でも来れる音楽酒場。初心者歓迎、見るだけOK、持ち込みOK。">
 <meta name="twitter:image" content="https://handclap.whathides.co.jp/images/bar.jpg">
 <!-- 構造化データ -->
 <script type="application/ld+json">
@@ -111,8 +104,8 @@
 <figure><img style="display: block;margin: auto;" src="images/concept.png" alt="コンセプト"></figure>
 <h4>セッション未満、飲み以上。</h4>
 <p>
-一人でも来れる音楽酒場。初心者OK、見るだけOK、持込OK。<br>
-松戸・馬橋で、音楽がふらっと交わる場所を目指しています。
+一人でも来れる音楽酒場。<br>
+初心者OK、見るだけでもOK、持ち込みOK。
 </p>
 </div>
 
@@ -122,8 +115,8 @@
 <figure><img style="display: block;margin: auto;" src="images/normalday.png" alt="通常営業"></figure>
 <h4>営業について</h4>
 <p>
-ライブを観る人も、演奏する人も、ただ飲みに来る人も、<br>
-松戸・馬橋でゆるく交われる場を目指しています。
+2026年5月から、金曜日営業予定です。<br>
+営業日はInstagramでご案内しています。
 </p>
 </div>
 
@@ -131,7 +124,7 @@
 <figure><img style="display: block;margin: auto;" src="images/live.png" alt="ライブ"></figure>
 <h4>イベント</h4>
 <p>
-ライブやセッションを行い、松戸・馬橋を盛り上げます。<br>
+土・日曜日を中心に、ライブやセッションを行っています。<br>
 イベントのご相談は
 <a href="https://www.instagram.com/hand_clap/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram-square"></i></a>
 または
@@ -144,7 +137,8 @@
 <figure><img style="display: block;margin: auto;" src="images/rentalstudio.png" alt="レンタルスタジオ"></figure>
 <h4>貸切練習</h4>
 <p>
-貸切練習（スタジオ利用）は<a href="https://www.spacemarket.com/spaces/hand-clap/" target="_blank">SpaceMarket</a>からご予約ください。
+貸切練習（スタジオ利用）は<br>
+<a href="https://www.spacemarket.com/spaces/hand-clap/" target="_blank">SpaceMarket</a>からご予約ください。
 </p>
 </div>
 
