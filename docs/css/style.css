@@ -702,3 +702,56 @@ header {
 		margin-right: -5%;
 	}
 }
+
+/* 追加：EVENT（イベント告知）ブロック */
+#event .event-list {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -1% 10px;
+	padding: 0;
+	list-style: none;
+}
+#event .event-item {
+	width: 48%;
+	margin: 0 1% 20px;
+	padding: 1.5%;
+	border-radius: 10px;
+	box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+	background: #FFF;
+	background: linear-gradient(#FFF, #e6e6e6);
+	box-sizing: border-box;
+}
+#event .event-item img {
+	display: block;
+	width: 100%;
+	height: auto;
+	border-radius: 6px;
+}
+#event .event-item .event-date {
+	margin-top: 12px;
+	padding: 0;
+	color: #a8452a;	/*日付の文字色*/
+	font-weight: bold;
+	letter-spacing: 0.05em;
+}
+#event .event-item h4 {
+	margin-top: 2px;
+	color: #533c28;
+	font-size: 1.1em;
+	line-height: 1.4;
+}
+#event .event-note {
+	padding: 0 10px 10px;
+	font-size: 0.9em;
+}
+
+@media screen and (max-width:600px){
+	#event .event-item {
+		width: 100%;
+		margin: 0 0 20px;
+		padding: 15px;
+	}
+	#event .event-list {
+		margin: 0 0 10px;
+	}
+}
