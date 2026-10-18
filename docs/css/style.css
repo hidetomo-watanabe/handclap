@@ -773,3 +773,26 @@ header {
 	aspect-ratio: 16 / 9;	/*幅に合わせて高さが決まる*/
 	border: 0;
 }
+
+/* 追加：ライブのしおりへの案内ボタン */
+#shiori .shiori-btn-wrap {
+	text-align: center;
+	margin-bottom: 30px;
+}
+#shiori .shiori-btn {
+	display: inline-block;
+	padding: 12px 36px;
+	border-radius: 30px;
+	background: #533c28;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+}
+#shiori .shiori-btn i {
+	margin-right: 8px;
+}
+#shiori .shiori-btn:hover {
+	opacity: 0.85;
+	color: #fff;
+}
