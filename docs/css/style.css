@@ -755,3 +755,21 @@ header {
 		padding: 15px;
 	}
 }
+
+/* 追加：YouTube動画の埋め込み（16:9を保つ） */
+#main .video-wrap {
+	width: 100%;
+	max-width: 680px;	/*動画が大きくなりすぎないよう幅を制限*/
+	margin: 0 auto 20px;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+	line-height: 0;	/*iframe下に隙間ができるのを防ぐ*/
+}
+#main .video-wrap iframe {
+	display: block;
+	width: 100%;
+	height: auto;
+	aspect-ratio: 16 / 9;	/*幅に合わせて高さが決まる*/
+	border: 0;
+}
