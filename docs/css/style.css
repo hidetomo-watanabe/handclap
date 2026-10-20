@@ -774,12 +774,14 @@ header {
 	border: 0;
 }
 
-/* 追加：ライブのしおりへの案内ボタン */
-#shiori .shiori-btn-wrap {
+/* 追加：ライブのしおり・曲のしおりへの案内ボタン */
+#shiori .shiori-btn-wrap,
+#song-shiori .shiori-btn-wrap {
 	text-align: center;
 	margin-bottom: 30px;
 }
-#shiori .shiori-btn {
+#shiori .shiori-btn,
+#song-shiori .shiori-btn {
 	display: inline-block;
 	padding: 12px 36px;
 	border-radius: 30px;
@@ -789,10 +791,12 @@ header {
 	text-decoration: none;
 	box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
 }
-#shiori .shiori-btn i {
+#shiori .shiori-btn i,
+#song-shiori .shiori-btn i {
 	margin-right: 8px;
 }
-#shiori .shiori-btn:hover {
+#shiori .shiori-btn:hover,
+#song-shiori .shiori-btn:hover {
 	opacity: 0.85;
 	color: #fff;
 }
