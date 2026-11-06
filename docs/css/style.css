@@ -793,6 +793,7 @@ header {
 }
 #drum .drum-flyer .drum-flyer-note {
 	padding: 10px 0 0;
+	color: #533c28;	/*全体の文字色が白のため、明るいカード上で読めるよう指定*/
 	font-size: 0.9em;
 	text-align: center;
 }
